@@ -11,4 +11,4 @@ RUN \
   apt-get clean && \
   rm -rf /var/lib/apt/lists* /tmp/* /var/tmp/*
 
-RUN pip3 install matplotlib pandas
+RUN pip3 install matplotlib pandas jupyterlab
